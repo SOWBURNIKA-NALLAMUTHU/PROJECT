@@ -1,19 +1,7 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
-    {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
-    }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+      { "id": 5, "name": "Ramesh", "email": "Hello" ,"password":"12345"},
+      { "id": 2, "name": "Suresh", "email": "Hi","password":"1234" },
+      { "id": 3, "name": "Tanish", "email": "Good" ,"password":"123"}
+  ]
 }
