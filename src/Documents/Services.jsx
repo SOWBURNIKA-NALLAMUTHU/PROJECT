@@ -3,7 +3,7 @@ import React from "react";
 const Services = () => {
   const containerStyle = {
     backgroundImage:
-      "url('https://img.freepik.com/free-photo/front-view-little-presents_140725-130186.jpg?w=1060&t=st=1700492295~exp=1700492895~hmac=a0f6435e26990a268e58e07371c1895f6aaa671fc130504da74c42c5b8f40376')", // replace with the actual path to your image
+      "url('https://img.freepik.com/free-vector/hand-painted-watercolor-nature-background_23-2148941603.jpg?w=996&t=st=1701072227~exp=1701072827~hmac=4b8a95d934abffb0637fd751e4af2594c723e259cabcbb1e770dafc92b6c3f92')", // replace with the actual path to your image
     backgroundSize: "cover",
     backgroundPosition: "center",
     color: "black",

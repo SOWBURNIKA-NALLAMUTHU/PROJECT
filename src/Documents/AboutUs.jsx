@@ -3,10 +3,10 @@ import React from "react";
 const AboutUs = () => {
   const containerStyle = {
     backgroundImage:
-      "url('https://img.freepik.com/free-photo/flat-lay-beautiful-birthday-party-arrangement-with-copy-space_23-2148276582.jpg?w=996&t=st=1700489564~exp=1700490164~hmac=4b56f90854ea57630f549f5f7f69a49a26e3162df002d334cf01c0d1302aa061')",
+      "url('https://img.freepik.com/free-vector/cement-wall-texture-background_53876-91519.jpg?size=626&ext=jpg&ga=GA1.1.1515574406.1700475824&semt=ais')",
     backgroundSize: "cover",
     backgroundPosition: "center",
-    color: "black",
+    color: "white",
     padding: "20px",
     height: "100vh",
     display: "flex",
@@ -17,7 +17,7 @@ const AboutUs = () => {
 
   return (
     <div style={containerStyle}>
-      <h1 style={{ color: "purple" }}>ABOUT US</h1>
+      <h1 style={{ color: "white" }}>ABOUT US</h1>
       <p>
         <h3>
           * Our motive is to infuse joy into every occasion through personalized
