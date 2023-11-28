@@ -52,6 +52,7 @@ import Product from "./Product";
 import Cartitems from "./Cartitems";
 import Logout from "./Logout";
 import GetProducts from "./GetProducts";
+import GetCartProducts from "./GetCartProducts";
 const router = createBrowserRouter([
   { path: "/", element: <Home /> },
   { path: "/signup", element: <SignUp2 /> },
@@ -65,5 +66,6 @@ const router = createBrowserRouter([
   { path: "/product", element: <Product /> },
   { path: "/cartItems", element: <Cartitems /> },
   { path: "/logout", element: <Logout /> },
+  { path: "/cartItems2", element: <GetCartProducts /> },
 ]);
 export default router;

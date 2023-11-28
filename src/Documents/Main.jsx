@@ -372,7 +372,11 @@ const Main = () => {
     );
     setFilteredProducts(filtered);
   };
+  const [selectedSize, setSelectedSize] = useState(null);
 
+  const handleSizeChange = (size) => {
+    setSelectedSize(size);
+  };
   const mainStyle = {
     backgroundImage:
       "url('https://img.freepik.com/free-photo/background-with-christmas-gifts-box-template_135149-77.jpg?size=626&ext=jpg&ga=GA1.1.1515574406.1700475824&semt=ais')",
@@ -499,6 +503,23 @@ const Main = () => {
               <div>
                 <p>{product.title}</p>
                 <p>{product.price}</p>
+                <div className="size-dropdown">
+                  <label htmlFor={`size-dropdown-${product.id}`}>
+                    Select Size:
+                  </label>
+                  <select
+                    id={`size-dropdown-${product.id}`}
+                    onChange={(e) => handleSizeChange(e.target.value)}
+                    value={selectedSize}
+                  >
+                    <option value="XS">XS</option>
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">XL</option>
+                    <option value="XL">L</option>
+                    {/* Add more size options as needed */}
+                  </select>
+                </div>
               </div>
               <button
                 onClick={() => handleAddToCart(product)}
